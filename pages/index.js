@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
+import NavbarTwo from '../components/Layouts/NavbarTwo';
 import MainBanner from '../components/DefaultHome/MainBanner';
 import Services from '../components/DefaultHome/Services';
 import About from '../components/DefaultHome/About';
 import OurWorks from '../components/DefaultHome/OurWorks';
 import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
+import TeamStyleThree from '../components/Common/TeamStyleThree';
 import FunFacts from '../components/Common/FunFacts';
 import LatestNewsSlider from '../components/Common/LatestNewsSlider';
 import CtaArea from '../components/Common/CtaArea';
@@ -17,7 +17,7 @@ class Index extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                <NavbarTwo />
 
                 <MainBanner />
 
@@ -31,7 +31,7 @@ class Index extends Component {
 
                 <Feedback />
 
-                <Team />
+                <TeamStyleThree />
 
                 <FunFacts />
 
@@ -40,7 +40,7 @@ class Index extends Component {
                 <CtaArea />
 
                 <Partner />
-                
+
                 <Footer />
             </>
         );

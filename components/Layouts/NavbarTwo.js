@@ -64,31 +64,9 @@ class NavbarTwo extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Home <i className="icofont-thin-down"></i>
-                                            </a>
+                                        <Link href="/" activeClassName="active">
+                                            <a className="nav-link">Home</a>
                                         </Link>
-
-                                        <ul className="dropdown-menu mega-dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/" activeClassName="active">
-                                                    <a className="nav-link">Default Home</a>
-                                                </Link>
-
-                                                <Link href="/creative-agency" activeClassName="active">
-                                                    <a className="nav-link">Creative Agency</a>
-                                                </Link>
-
-                                                <Link href="/it-agency" activeClassName="active">
-                                                    <a className="nav-link">IT Agency</a>
-                                                </Link>
-
-                                                <Link href="/portfolio-agency" activeClassName="active">
-                                                    <a className="nav-link">Portfolio Agency</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
 
                                     <li className="nav-item">
@@ -102,24 +80,6 @@ class NavbarTwo extends Component {
                                             <li className="nav-item">
                                                 <Link href="/services" activeClassName="active">
                                                     <a className="nav-link">Services Style 1</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/services-2" activeClassName="active">
-                                                    <a className="nav-link">Services Style 2</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/services-3" activeClassName="active">
-                                                    <a className="nav-link">Services Style 3</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/services-4" activeClassName="active">
-                                                    <a className="nav-link">Services Style 4</a>
                                                 </Link>
                                             </li>
 
