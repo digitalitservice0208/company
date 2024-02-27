@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import WorksStyle from '../components/Portfolio/WorksStyle';
 import CtaArea from '../components/Common/CtaArea';
@@ -9,7 +9,7 @@ class Portfolio extends Component {
     render() {
         return (
             <>
-                <NavbarTwo />
+                <Navbar />
 
                 <PageBanner
                     pageTitle="Our Portfolio"

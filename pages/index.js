@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
 import MainBanner from '../components/DefaultHome/MainBanner';
 import Services from '../components/DefaultHome/Services';
 import About from '../components/DefaultHome/About';
@@ -13,7 +13,7 @@ class Index extends Component {
     render() {
         return (
             <>
-                <NavbarTwo />
+                <Navbar />
 
                 <MainBanner />
 

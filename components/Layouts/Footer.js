@@ -40,28 +40,33 @@ class Footer extends Component {
 
                                     <ul className="list">
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/backend-service-details">
                                                 <a>Backend Development</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/frontend-service-details">
                                                 <a>Frontend Development</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/project-management-details">
                                                 <a>Project Management</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/mobile-service-details">
                                                 <a>Mobile App Development</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="/design-service-details">
                                                 <a>UX/UI Design</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/testing-service-details">
+                                                <a>QA Testing</a>
                                             </Link>
                                         </li>
                                     </ul>

@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import TeamStyle from '../components/Common/TeamStyle';
+import ProjectManagementServiceDetailContent from '../components/Services/ProjectManagementServiceDetailContent';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class Team extends Component {
+class ProjectManagementServiceDetails extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Our Skilled Team"
+                    pageTitle="Project Management"
                     BGImage="bg-one"
                 />
 
-                <TeamStyle />
+                <ProjectManagementServiceDetailContent />
 
                 <CtaArea />
 
@@ -26,4 +26,4 @@ class Team extends Component {
     }
 }
 
-export default Team;
+export default ProjectManagementServiceDetails;

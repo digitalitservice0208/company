@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ServiceDetailsContent from '../components/Services/ServiceDetailsContent';
+import TestingServiceDetailContent from '../components/Services/TestingServiceDetailContent';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class ServiceDetails extends Component {
+class TestingServiceDetails extends Component {
     render() {
         return (
             <>
-                <NavbarTwo />
+                <Navbar />
 
                 <PageBanner
-                    pageTitle="Mobile App Development"
+                    pageTitle="QA Testing"
                     BGImage="bg-one"
                 />
 
-                <ServiceDetailsContent />
+                <TestingServiceDetailContent />
 
                 <CtaArea />
 
@@ -26,4 +26,4 @@ class ServiceDetails extends Component {
     }
 }
 
-export default ServiceDetails;
+export default TestingServiceDetails;

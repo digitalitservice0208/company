@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import TeamStyle from '../components/Common/TeamStyle';
+import MobileAppServiceContentDetail from '../components/Services/MobileAppServiceContentDetail';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class Team extends Component {
+class MobileAppServiceContentDetails extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Our Skilled Team"
+                    pageTitle="Mobile App Development"
                     BGImage="bg-one"
                 />
 
-                <TeamStyle />
+                <MobileAppServiceContentDetail />
 
                 <CtaArea />
 
@@ -26,4 +26,4 @@ class Team extends Component {
     }
 }
 
-export default Team;
+export default MobileAppServiceContentDetails;

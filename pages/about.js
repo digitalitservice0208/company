@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import AboutContent from '../components/About/AboutContent';
 import TeamStyle from '../components/Common/TeamStyle';
@@ -11,7 +11,7 @@ class About extends Component {
     render() {
         return (
             <>
-                <NavbarTwo />
+                <Navbar />
 
                 <PageBanner
                     pageTitle="About Us"

@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import TeamStyle from '../components/Common/TeamStyle';
+import DesignServiceDetailContent from '../components/Services/DesignServiceDetailContent';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class Team extends Component {
+class DesignServiceDetailContentDetail extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Our Skilled Team"
+                    pageTitle="UI / UX Design"
                     BGImage="bg-one"
                 />
 
-                <TeamStyle />
+                <DesignServiceDetailContent />
 
                 <CtaArea />
 
@@ -26,4 +26,4 @@ class Team extends Component {
     }
 }
 
-export default Team;
+export default DesignServiceDetailContentDetail;

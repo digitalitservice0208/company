@@ -36,12 +36,13 @@ class Navbar extends Component {
 
         return (
             <>
-                <div id="navbar" className="navbar-area">
+                <div id="navbar" className="navbar-area navbar-style-2">
                     <nav className="navbar navbar-expand-md navbar-light">
-                        <div className="container">
+                        <div className="container-fluid">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/logo.png" alt="logo" />
+                                    <img src="/images/logo.png" className="black-logo" alt="logo" />
+                                    <img src="/images/logo-white.png" className="white-logo" alt="logo" />
                                 </a>
                             </Link>
 
@@ -77,14 +78,38 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
-                                                    <a className="nav-link">Services Style 1</a>
+                                                <Link href="/backend-service-details" activeClassName="active">
+                                                    <a className="nav-link">Backend Development</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/service-details" activeClassName="active">
-                                                    <a className="nav-link">Service Details</a>
+                                                <Link href="/frontend-service-details" activeClassName="active">
+                                                    <a className="nav-link">Frontend Development</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/project-management-details" activeClassName="active">
+                                                    <a className="nav-link">Project Management</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/mobile-service-details" activeClassName="active">
+                                                    <a className="nav-link">Mobile App Development</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/testing-service-details" activeClassName="active">
+                                                    <a className="nav-link">QA Testing</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/design-service-details" activeClassName="active">
+                                                    <a className="nav-link">UX/UI Design</a>
                                                 </Link>
                                             </li>
                                         </ul>
