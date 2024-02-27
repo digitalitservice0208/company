@@ -148,7 +148,7 @@ class Navbar extends Component {
                                 </ul>
 
                                 <div className="others-options">
-                                    <Link href="/">
+                                    <Link href="/contact">
                                         <a className="btn btn-primary">
                                             Let's Begin
                                         </a>

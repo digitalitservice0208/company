@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import PortfolioDetailsContent from '../components/Portfolio/PortfolioDetailsContent';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
 class PortfolioDetails extends Component {
@@ -10,15 +10,15 @@ class PortfolioDetails extends Component {
         return (
             <>
                 <NavbarTwo />
-                
-                <PageBanner 
-                    pageTitle="UX for Mobile Apps" 
+
+                <PageBanner
+                    pageTitle="UX for Mobile Apps"
                     BGImage="bg-two"
-                />  
-                
+                />
+
                 <PortfolioDetailsContent />
 
-                <CtaAreaTwo />
+                <CtaArea />
 
                 <Footer />
             </>

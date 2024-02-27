@@ -3,8 +3,7 @@ import Link from 'next/link';
 
 class Footer extends Component {
     render() {
-
-        let currentYear = new Date().getFullYear();
+        const currentYear = new Date().getFullYear();
 
         return (
             <>
@@ -16,33 +15,54 @@ class Footer extends Component {
                                     <div className="logo">
                                         <Link href="/">
                                             <a>
-                                                <img src="/images/logo.png" alt="image" />
+                                                <img src="/images/logo.png" alt="image"/>
                                             </a>
                                         </Link>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>The mission is to deliver the best and highest quality products in the age of
+                                        mobility and technical innovation.</p>
 
                                     <ul className="social-links">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="icofont-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="icofont-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="linkedin.com" target="_blank">
+                                            <a href="https://www.linkedin.com/company/digital-information-technology-group/"
+                                               target="_blank">
                                                 <i className="icofont-linkedin"></i>
                                             </a>
                                         </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-3 col-sm-6">
+                                <div className="single-footer-widget ml-4">
+                                    <h3>Services</h3>
+
+                                    <ul className="list">
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank">
-                                                <i className="icofont-instagram"></i>
-                                            </a>
+                                            <Link href="/service-details">
+                                                <a>Backend Development</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                <a>Frontend Development</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                <a>Project Management</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                <a>Mobile App Development</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/service-details">
+                                                <a>UX/UI Design</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -83,47 +103,23 @@ class Footer extends Component {
                             </div>
 
                             <div className="col-lg-3 col-sm-6">
-                                <div className="single-footer-widget ml-4">
-                                    <h3>Quick Links</h3>
-
-                                    <ul className="list">
-                                        <li>
-                                            <Link href="/contact">
-                                                <a>Contact Us</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/faq">
-                                                <a>Faq</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/privacy-policy">
-                                                <a>Privacy Policy</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/terms-conditions">
-                                                <a>Terms & Conditions</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-3 col-sm-6">
                                 <div className="single-footer-widget">
                                     <h3>Get in Touch</h3>
 
                                     <ul className="get-in-touch">
-                                        <li><i className="icofont-home"></i> 2750 Quadra Street Victoria, Canada.</li>
+                                        <li>
+                                            <i className="icofont-home"></i>
+                                            Jl. Tarutung No.25, <br/>
+                                            Kota Pematang Siantar, <br/>
+                                            21124,Indonesia
+                                        </li>
                                         <li>
                                             <i className="icofont-live-support"></i>
-                                            <a href="tel:+324-9442-515">+324-9442-515</a>
+                                            <p><a href="tel:+62-895-611177856">+62 895 611177856</a></p>
                                         </li>
                                         <li>
                                             <i className="icofont-envelope"></i>
-                                            <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                                            <p><a href="mailto:hello@pungent.com">hello@pungent.com</a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -133,7 +129,8 @@ class Footer extends Component {
 
                     <div className="copyright-area">
                         <div className="container">
-                            <p>Copyright &copy; {currentYear} Pungent. All Rights Reserved By <a href="https://envytheme.com" target="_blank">EnvyTheme</a></p>
+                            <p>Copyright &copy; {currentYear}. All Rights Reserved By <a href="/" target="_blank">Digital
+                                Information Technology Group</a></p>
                         </div>
                     </div>
                 </footer>

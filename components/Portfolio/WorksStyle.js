@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class WorksStyleTwo extends Component {
+class WorksStyle extends Component {
     render() {
         return (
             <>
@@ -171,4 +171,4 @@ class WorksStyleTwo extends Component {
     }
 }
 
-export default WorksStyleTwo;
+export default WorksStyle;

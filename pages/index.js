@@ -4,13 +4,10 @@ import MainBanner from '../components/DefaultHome/MainBanner';
 import Services from '../components/DefaultHome/Services';
 import About from '../components/DefaultHome/About';
 import OurWorks from '../components/DefaultHome/OurWorks';
-import Feedback from '../components/Common/Feedback';
-import TeamStyleThree from '../components/Common/TeamStyleThree';
-import FunFacts from '../components/Common/FunFacts';
+import TeamStyle from '../components/Common/TeamStyle';
 import LatestNewsSlider from '../components/Common/LatestNewsSlider';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
-import WorkProcess from '../components/DefaultHome/WorkProcess';
 
 class Index extends Component {
     render() {
@@ -26,13 +23,7 @@ class Index extends Component {
 
                 <OurWorks />
 
-                <WorkProcess />
-
-                <Feedback />
-
-                <TeamStyleThree />
-
-                <FunFacts />
+                <TeamStyle />
 
                 <LatestNewsSlider />
 

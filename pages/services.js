@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import ServicesStyleOne from '../components/Services/ServicesStyleOne';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
 class Services extends Component {
@@ -10,15 +10,15 @@ class Services extends Component {
         return (
             <>
                 <NavbarTwo />
-                
-                <PageBanner 
-                    pageTitle="Our Services" 
+
+                <PageBanner
+                    pageTitle="Our Services"
                     BGImage="bg-one"
-                />  
+                />
 
                 <ServicesStyleOne />
 
-                <CtaAreaTwo />
+                <CtaArea />
 
                 <Footer />
             </>

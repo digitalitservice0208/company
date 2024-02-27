@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import AboutContent from '../components/About/AboutContent';
-import FunFactsTwo from '../components/Common/FunFactsTwo';
-import TeamStyleThree from '../components/Common/TeamStyleThree';
-import Feedback from '../components/Common/Feedback';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import TeamStyle from '../components/Common/TeamStyle';
+
+import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class Aabout extends Component {
+class About extends Component {
     render() {
         return (
             <>
@@ -21,13 +20,9 @@ class Aabout extends Component {
 
                 <AboutContent />
 
-                <FunFactsTwo />
+                <TeamStyle />
 
-                <TeamStyleThree />
-
-                <Feedback />
-
-                <CtaAreaTwo />
+                <CtaArea />
 
                 <Footer/>
             </>
@@ -35,4 +30,4 @@ class Aabout extends Component {
     }
 }
 
-export default Aabout;
+export default About;
