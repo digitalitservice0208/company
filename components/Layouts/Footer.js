@@ -43,7 +43,7 @@ class Footer extends Component {
                                             <a href="https://www.instagram.com/" target="_blank">
                                                 <i className="icofont-instagram"></i>
                                             </a>
-                                        </li> 
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -93,11 +93,6 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/pricing">
-                                                <a>Pricing</a>
-                                            </Link>
-                                        </li>
-                                        <li>
                                             <Link href="/faq">
                                                 <a>Faq</a>
                                             </Link>
@@ -123,11 +118,11 @@ class Footer extends Component {
                                     <ul className="get-in-touch">
                                         <li><i className="icofont-home"></i> 2750 Quadra Street Victoria, Canada.</li>
                                         <li>
-                                            <i className="icofont-live-support"></i> 
+                                            <i className="icofont-live-support"></i>
                                             <a href="tel:+324-9442-515">+324-9442-515</a>
                                         </li>
                                         <li>
-                                            <i className="icofont-envelope"></i> 
+                                            <i className="icofont-envelope"></i>
                                             <a href="mailto:hello@pungent.com">hello@pungent.com</a>
                                         </li>
                                     </ul>

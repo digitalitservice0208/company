@@ -122,76 +122,6 @@ class NavbarTwo extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Pages <i className="icofont-thin-down"></i>
-                                            </a>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/about" activeClassName="active">
-                                                    <a className="nav-link">About</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
-                                                    <a className="nav-link">Services</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/service-details" activeClassName="active">
-                                                    <a className="nav-link">Services Details</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/portfolio" activeClassName="active">
-                                                    <a className="nav-link">Portfolio</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/portfolio-details" activeClassName="active">
-                                                    <a className="nav-link">Portfolio Details</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/team" activeClassName="active">
-                                                    <a className="nav-link">Team</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/pricing" activeClassName="active">
-                                                    <a className="nav-link">Pricing</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/faq" activeClassName="active">
-                                                    <a className="nav-link">FAQ</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/404" activeClassName="active">
-                                                    <a className="nav-link">404 error</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/contact" activeClassName="active">
-                                                    <a className="nav-link">Contact</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 Blog <i className="icofont-thin-down"></i>
                                             </a>
                                         </Link>
@@ -231,7 +161,7 @@ class NavbarTwo extends Component {
                                 </ul>
 
                                 <div className="others-options">
-                                    <Link href="/pricing">
+                                    <Link href="/">
                                         <a className="btn btn-primary">
                                             Let's Begin
                                         </a>
