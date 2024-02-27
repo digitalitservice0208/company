@@ -9,7 +9,7 @@ class Services extends Component {
                     <div className="container">
                         <div className="section-title">
                             <h2>Our Services</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <p>We will Serve you to think as that you are the best</p>
                         </div>
 
                         <div className="row justify-content-center">
@@ -18,10 +18,10 @@ class Services extends Component {
                                     <i className="pe-7s-comment bg-13c4a1"></i>
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Business Consultancy</a>
+                                            <a>Backend Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>Our back-end development services are not just about making a server, application, and database communicate with each other.</p>
                                 </div>
                             </div>
 
@@ -30,10 +30,10 @@ class Services extends Component {
                                     <i className="pe-7s-display2 bg-6610f2"></i>
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Web Development</a>
+                                            <a>Frontend Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>It takes more than ‘just’ a frontend developer to create a software solution that is well designed and nice to use.</p>
                                 </div>
                             </div>
 
@@ -42,10 +42,10 @@ class Services extends Component {
                                     <i className="pe-7s-light bg-ffb700"></i>
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Digital Marketing</a>
+                                            <a>Project Management</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>Bespoke Custom Software Consultancy & Engineering Services. For every project, we dedicate a project manager who will focus on your project and meet all your expectations.</p>
                                 </div>
                             </div>
 
@@ -57,7 +57,7 @@ class Services extends Component {
                                             <a>Mobile App Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>We provide full-cycle mobile app development services. This includes expert business analysis, design and development of your mobile application from idea to launch.</p>
                                 </div>
                             </div>
 
@@ -66,10 +66,10 @@ class Services extends Component {
                                     <i className="pe-7s-cart bg-00d280"></i>
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>eCommerce Development</a>
+                                            <a>UX/UI Design</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>Creating the right look and feel for a site can make the difference between success and failure. That’s why our web projects focus on design and ease of use.</p>
                                 </div>
                             </div>
 
@@ -78,10 +78,10 @@ class Services extends Component {
                                     <i className="pe-7s-users bg-ff612f"></i>
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Marketing & Reporting</a>
+                                            <a>QA Testing</a>
                                         </Link>
                                     </h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                    <p>Identify errors and implement a correctional strategy before final deployment.</p>
                                 </div>
                             </div>
                         </div>

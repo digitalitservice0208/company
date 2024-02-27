@@ -5,7 +5,6 @@ import AboutContent from '../components/About/AboutContent';
 import FunFactsTwo from '../components/Common/FunFactsTwo';
 import TeamStyleThree from '../components/Common/TeamStyleThree';
 import Feedback from '../components/Common/Feedback';
-import Partner from '../components/Common/Partner';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
 
@@ -15,10 +14,10 @@ class Aabout extends Component {
             <>
                 <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="About Us" 
+                <PageBanner
+                    pageTitle="About Us"
                     BGImage="bg-one"
-                />  
+                />
 
                 <AboutContent />
 
@@ -28,10 +27,8 @@ class Aabout extends Component {
 
                 <Feedback />
 
-                <Partner />
-
                 <CtaAreaTwo />
-                
+
                 <Footer/>
             </>
         );

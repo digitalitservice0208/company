@@ -9,7 +9,6 @@ import TeamStyleThree from '../components/Common/TeamStyleThree';
 import FunFacts from '../components/Common/FunFacts';
 import LatestNewsSlider from '../components/Common/LatestNewsSlider';
 import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
 import Footer from '../components/Layouts/Footer';
 import WorkProcess from '../components/DefaultHome/WorkProcess';
 
@@ -38,8 +37,6 @@ class Index extends Component {
                 <LatestNewsSlider />
 
                 <CtaArea />
-
-                <Partner />
 
                 <Footer />
             </>

@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-const ModalVideo = dynamic(() => import('react-modal-video'), {
-    ssr: false
-});
 import VisibilitySensor from "react-visibility-sensor";
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
@@ -21,24 +18,11 @@ const options = {
 }
 
 class MainBanner extends Component {
-
-    _isMounted = false;
     state = {
-        display:false
+        display: false
     }
     componentDidMount(){
-        this._isMounted = true;
         this.setState({ display: true })
-    }
-    componentWillUnmount() {
-        this._isMounted = false;
-    }
-
-    state = {
-        isOpen: false,
-    }
-    openModal = () => {
-        this.setState({isOpen: true})
     }
 
     render() {
@@ -60,7 +44,7 @@ class MainBanner extends Component {
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Portfolio Agency
+                                                    MAKING DIGITAL SOLUTIONS
                                                 </h1>
 
                                                 <p
@@ -68,7 +52,7 @@ class MainBanner extends Component {
                                                         isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    The mission is to deliver the best and highest quality products in the age of mobility and technical innovation.
                                                 </p>
 
                                                 <div
@@ -77,16 +61,11 @@ class MainBanner extends Component {
                                                     }
                                                 >
                                                     <Link href="/contact">
-                                                        <a className="btn btn-primary">Contact Us</a>
+                                                        <a className="btn btn-primary">Hire us now</a>
                                                     </Link>
 
-                                                    <Link href="/#play-video">
-                                                        <a
-                                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                                            className="btn btn-secondary"
-                                                        >
-                                                            <i className="icofont-ui-play"></i> How it works
-                                                        </a>
+                                                    <Link href="/about">
+                                                        <a className="btn btn-secondary">About us</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -117,7 +96,7 @@ class MainBanner extends Component {
                                                         isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    We use latest technologies and frameworks to build web and mobile apps on high level.
                                                 </p>
 
                                                 <div
@@ -126,16 +105,11 @@ class MainBanner extends Component {
                                                     }
                                                 >
                                                     <Link href="/contact">
-                                                        <a className="btn btn-primary">Contact Us</a>
+                                                        <a className="btn btn-primary">Hire us now</a>
                                                     </Link>
 
-                                                    <Link href="/#play-video">
-                                                        <a
-                                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                                            className="btn btn-secondary"
-                                                        >
-                                                            <i className="icofont-ui-play"></i> How it works
-                                                        </a>
+                                                    <Link href="/about">
+                                                        <a className="btn btn-secondary">About us</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -166,7 +140,7 @@ class MainBanner extends Component {
                                                         isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                     }
                                                 >
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    It is important to plan a web app in advance to avoid any confusion.
                                                 </p>
 
                                                 <div
@@ -175,16 +149,11 @@ class MainBanner extends Component {
                                                     }
                                                 >
                                                     <Link href="/contact">
-                                                        <a className="btn btn-primary">Contact Us</a>
+                                                        <a className="btn btn-primary">Hire us now</a>
                                                     </Link>
 
-                                                    <Link href="/#play-video">
-                                                        <a
-                                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                                            className="btn btn-secondary"
-                                                        >
-                                                            <i className="icofont-ui-play"></i> How it works
-                                                        </a>
+                                                    <Link href="/about">
+                                                        <a className="btn btn-secondary">About us</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -195,14 +164,6 @@ class MainBanner extends Component {
                         </div>
                     </div>
                 </OwlCarousel> : ''}
-
-                {/* If you want to change the video need to update below videoID */}
-                <ModalVideo
-                    channel='youtube'
-                    isOpen={this.state.isOpen}
-                    videoId='_ysd-zHamjk'
-                    onClose={() => this.setState({isOpen: false})}
-                />
             </>
         );
     }
