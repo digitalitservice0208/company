@@ -1,7 +1,7 @@
 {
     "name": "DITG",
     "version": "1.7.0",
-    "description": "DITG - React Multipurpose Startup & Digital Agency Template",
+    "description": "DITG - Digital Information Technology Group",
     "main": "index.js",
     "scripts": {
         "dev": "next",

@@ -35,7 +35,7 @@ export default class MyApp extends App {
             <>
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <title>DITG - React Multipurpose Startup & Digital Agency Template</title>
+                    <title>DITG - Digital Information Technology Group</title>
                 </Head>
 
                 <Component {...pageProps} />
