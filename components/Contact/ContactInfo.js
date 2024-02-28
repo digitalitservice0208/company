@@ -42,7 +42,10 @@ class ContactInfo extends Component {
                     <div className="row justify-content-center">
                         <iframe
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.135071158123!2d99.06357056962194!3d2.9474409998142974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30318451191b20ad%3A0xfca99bc0fc27d6a4!2sJl.%20Tarutung%20No.25%2C%20Kristen%2C%20Kec.%20Siantar%20Sel.%2C%20Kota%20Pematang%20Siantar%2C%20Sumatera%20Utara%2021118%2C%20Indonesia!5e0!3m2!1sen!2sfr!4v1709102754241!5m2!1sen!2sfr"
-                          width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy"
+                          width="100%"
+                          height="450"
+                          allowFullScreen=""
+                          loading="lazy"
                           referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
