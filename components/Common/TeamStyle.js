@@ -74,7 +74,7 @@ class TeamStyle extends Component {
 
                             <div className="team-caption">
                                 <h3>Stefan Vukotic</h3>
-                                <p>CTO</p>
+                                <p>Head of Engineer</p>
                             </div>
                         </div>
 
