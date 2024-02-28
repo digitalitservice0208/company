@@ -70,7 +70,7 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
+                                        <Link href="/services">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 Services <i className="icofont-thin-down"></i>
                                             </a>
@@ -128,8 +128,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/contact" activeClassName="active">
-                                            <a className="nav-link">Contact Us</a>
+                                        <Link href="/team" activeClassName="active">
+                                            <a className="nav-link">Team</a>
                                         </Link>
                                     </li>
                                 </ul>
