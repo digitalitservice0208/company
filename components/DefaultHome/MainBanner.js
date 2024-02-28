@@ -142,7 +142,7 @@ class MainBanner extends Component {
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                               >
-                                                  It is important to plan a web app in advance to avoid any confusion.
+                                                  It is important to plan a mobile app in advance to avoid any confusion.
                                               </p>
 
                                               <div
