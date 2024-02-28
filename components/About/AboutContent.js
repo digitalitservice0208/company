@@ -22,7 +22,7 @@ class About extends Component {
                                 <div className="about-text">
                                     <h4>Who We Are</h4>
                                     <p>With 10+ years of experience working on software solutions we expanded our
-                                        co-operation with companies in 6 different countries.</p>
+                                        co-operation with companies over the world.</p>
                                 </div>
 
                                 <div className="about-text">
