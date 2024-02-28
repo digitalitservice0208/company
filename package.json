@@ -1,7 +1,7 @@
 {
-    "name": "pungent",
+    "name": "DITG",
     "version": "1.7.0",
-    "description": "Pungent - React Multipurpose Startup & Digital Agency Template",
+    "description": "DITG - React Multipurpose Startup & Digital Agency Template",
     "main": "index.js",
     "scripts": {
         "dev": "next",

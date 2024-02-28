@@ -1,5 +1,5 @@
 /*
-@File: Pungent Template Styles
+@File: DITG Template Styles
 
 * This file contains the styling for the actual tepmlate, this
 is the file you need to edit to change the look of the
@@ -421,11 +421,11 @@ label {
     display: none;
 }
 @keyframes sk-rotateplane {
-    0% { 
+    0% {
         transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    } 50% { 
+    } 50% {
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    } 100% { 
+    } 100% {
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
@@ -455,7 +455,7 @@ Navbar CSS
         }
         .navbar-nav {
             margin-left: auto;
- 
+
             .nav-item {
                 position: relative;
                 padding: {
@@ -490,7 +490,7 @@ Navbar CSS
                     }
                     &:hover, &:focus, &.active {
                         color: $black-color;
-    
+
                         &::before {
                             width: 60%;
                         }
@@ -601,12 +601,12 @@ Navbar CSS
             padding: 0;
             margin: 0 0 0 10px;
             list-style-type: none;
-    
+
             .btn {
                 border-radius: 50px;
                 padding: 11px 20px;
                 font-size: 14px;
-    
+
                 &::before {
                     border-radius: 50px;
                 }
@@ -625,11 +625,11 @@ Navbar CSS
             }
             .others-options {
                 margin: 0 0 0 0;
-        
+
                 .btn {
                     color: $white-color;
                     border-color: $white-color;
-        
+
                     &:hover, &:focus {
                         border-color: $main-color;
                         background: transparent;
@@ -642,7 +642,7 @@ Navbar CSS
                 .btn {
                     color: $main-color;
                     border-color: $main-color;
-        
+
                     &:hover, &:focus {
                         border-color: $main-color;
                         color: $white-color;
@@ -751,7 +751,7 @@ Navbar CSS
     }
 }
 
-// Navbar toggler 
+// Navbar toggler
 .navbar-toggler {
     border: none;
     background: #eee !important;
@@ -787,7 +787,7 @@ Navbar CSS
     }
     &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -800,7 +800,7 @@ Navbar CSS
     }
 }
 
-  
+
 /*================================================
 Main Banner CSS
 =================================================*/
@@ -888,7 +888,7 @@ Main Banner CSS
             right: 85px;
         }
     }
-    .main-banner { 
+    .main-banner {
         .container-fluid {
             padding: {
                 right: 55px;
@@ -1028,7 +1028,7 @@ Main Banner CSS
         margin: auto;
     }
 }
- 
+
 @-webkit-keyframes border-transform {
     0%, 100% {
         border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
@@ -1052,7 +1052,7 @@ Main Banner CSS
         border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
     }
 }
-  
+
 @keyframes border-transform {
     0%, 100% {
         border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
@@ -1468,7 +1468,7 @@ Main Banner CSS
                 background-color: $white-color;
                 color: $main-color;
             }
-    
+
             &:hover::after, &:hover::before, &:focus::after, &:focus::before {
                 border-color: $white-color;
             }
@@ -1482,7 +1482,7 @@ Main Banner CSS
         overflow: hidden;
         left: 0;
         top: 0;
-    
+
         video {
             position: absolute;
             left: 0;
@@ -1509,7 +1509,7 @@ Main Banner CSS
                 font-size: 70px;
             }
         }
-   
+
         .video-box {
             .video-btn {
                 position: relative;
@@ -1828,7 +1828,7 @@ About CSS
         }
     }
 }
-  
+
 @-webkit-keyframes ripple {
     0% {
         -webkit-transform: scale(1);
@@ -2070,7 +2070,7 @@ Case Studies CSS
     }
     .tabs_item {
         display: none;
-        
+
         &:first-child {
             display: block;
         }
@@ -2113,7 +2113,7 @@ Case Studies CSS
         padding: 30px;
         transition: $transition;
         z-index: 5;
-        
+
         span {
             display: block;
             margin-bottom: 10px;
@@ -2533,7 +2533,7 @@ Services CSS
     &.border.text-center {
         border-radius: 10px;
     }
-} 
+}
 
 /* Service style two */
 .service-style-two {
@@ -2594,7 +2594,7 @@ Portfolio Details CSS
 =================================================*/
 .services-details-image {
     position: relative;
-  
+
 }
 .services-details-desc {
     margin-top: 50px;
@@ -3171,7 +3171,7 @@ Team CSS
         }
     }
 
-    &:hover {   
+    &:hover {
         .team-img {
             .social-links {
                 height: 100%;
@@ -3355,7 +3355,7 @@ Pricing Area CSS
             font-weight: 500;
         }
     }
-    
+
     .pricing-features {
         margin: 0;
         padding: 30px 40px;
@@ -3501,7 +3501,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #07ee7f;
-        
+
                 &::before {
                     background: #07ee7f;
                 }
@@ -3516,7 +3516,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #ff650b;
-        
+
                 &::before {
                     background: #ff650b;
                 }
@@ -3531,7 +3531,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #9333ff;
-        
+
                 &::before {
                     background: #9333ff;
                 }
@@ -3545,7 +3545,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #fcaf1c;
-        
+
                 &::before {
                     background: #fcaf1c;
                 }
@@ -3559,7 +3559,7 @@ Our Work Process CSS
             .icon {
                 background: transparent;
                 color: #fc23d1;
-        
+
                 &::before {
                     background: #fc23d1;
                 }
@@ -4100,7 +4100,7 @@ Blog CSS
     .blog-item {
         margin-bottom: 21px;
         background-color: #f5f6f5;
-        
+
         .row {
             margin: {
                 left: -10px;
@@ -4118,7 +4118,7 @@ Blog CSS
                 padding: 0;
                 margin: 0;
                 list-style-type: none;
-    
+
                 li {
                     display: inline-block;
                     margin-right: 18px;
@@ -4132,7 +4132,7 @@ Blog CSS
                     a {
                         display: inline-block;
                         color: $main-color;
-    
+
                         &:hover, &:focus {
                             color: $main-color;
                         }
@@ -4159,7 +4159,7 @@ Blog CSS
                     }
                     &:last-child {
                         margin-right: 0;
-    
+
                         &::before {
                             display: none;
                         }
@@ -4178,7 +4178,7 @@ Blog CSS
                 }
                 a {
                     color: $black-color;
-    
+
                     &:hover, &:focus {
                         color: $main-color;
                     }
@@ -4188,7 +4188,7 @@ Blog CSS
         .post-image {
             overflow: hidden;
             position: relative;
-    
+
             img {
                 transition: $transition;
             }
@@ -4300,7 +4300,7 @@ Blog CSS
             }
             .post-tag {
                 top: 50px;
-    
+
                 a {
                     background: $main-color;
                     color: $white-color;
@@ -4892,25 +4892,25 @@ Page Title CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 @keyframes rotate3d {
     0% {
@@ -4953,7 +4953,7 @@ Contact CSS
     padding: 30px 30px 30px 120px;
     margin-bottom: 30px;
     position: relative;
-    
+
     .icon {
         display: inline-block;
         width: 65px;
@@ -5096,7 +5096,7 @@ textarea.form-control {
     margin: 0 auto;
     max-width: 650px;
     text-align: center;
-    
+
     .search-form {
         position: relative;
         margin-top: 45px;
@@ -5271,7 +5271,7 @@ Sidebar CSS
     .widget_posts_thumb {
         position: relative;
         overflow: hidden;
-        
+
         .item {
             overflow: hidden;
             margin-bottom: 15px;
@@ -5337,7 +5337,7 @@ Sidebar CSS
             }
         }
     }
-    
+
     .widget_recent_entries {
         ul {
             li {
@@ -5365,7 +5365,7 @@ Sidebar CSS
         ul {
             li {
                 color: $paragraph-color;
-                
+
                 span {
                     display: inline-block;
                 }
@@ -5680,7 +5680,7 @@ Portfolio Details CSS
             text-align: center;
         }
     }
-} 
+}
 
 
 /*================================================
@@ -5717,7 +5717,7 @@ FAQ CSS
                     color: $white-color;
                     outline: 0;
                 }
-                
+
             }
             .accordion-content {
                 display: none;
@@ -5735,7 +5735,7 @@ FAQ CSS
         .accordion__panel {
             padding: 20px;
             border: 1px solid #eee;
-        } 
+        }
     }
 }
 .faq-contact {
@@ -5987,7 +5987,7 @@ Go Top CSS
         line-height: 40px;
         border-radius: 50%;
         transition: $transition;
-        
+
         &:hover {
             color: $white-color;
             background: $main-color;
