@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ServicesStyleOne from '../components/Services/ServicesStyleOne';
+import ServicesDetails from '../components/DefaultHome/Services';
 import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
@@ -16,7 +16,7 @@ class Services extends Component {
                     BGImage="bg-one"
                 />
 
-                <ServicesStyleOne />
+                <ServicesDetails />
 
                 <CtaArea />
 

@@ -48,8 +48,8 @@ class TeamStyle extends Component {
             <div className="ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our Expert Team</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2>Our Team</h2>
+                        <h5>Our team members will help to progress.</h5>
                     </div>
 
                     {this.state.display ? <OwlCarousel
@@ -58,34 +58,34 @@ class TeamStyle extends Component {
                     >
                         <div className="team-card text-center">
                             <div className="team-img">
-                                <img src="/images/team/team5.jpg" alt="Image" />
+                                <img src="/images/team/1.jpg" alt="Image" />
                             </div>
 
                             <div className="team-caption">
-                                <h3>James White</h3>
-                                <p>CEO & Founder</p>
+                                <h3>Dedi Erianto Manullang</h3>
+                                <p>CEO</p>
                             </div>
                         </div>
 
                         <div className="team-card text-center">
                             <div className="team-img">
-                                <img src="/images/team/team6.jpg" alt="Image" />
+                                <img src="/images/team/2.jpg" alt="Image" />
                             </div>
 
                             <div className="team-caption">
-                                <h3>Johnson Lee</h3>
-                                <p>Backend Specialist</p>
+                                <h3>Stefan Vukotic</h3>
+                                <p>CTO</p>
                             </div>
                         </div>
 
                         <div className="team-card text-center">
                             <div className="team-img">
-                                <img src="/images/team/team7.jpg" alt="Image" />
+                                <img src="/images/team/3.png" alt="Image" />
                             </div>
 
                             <div className="team-caption">
-                                <h3>Williams Smith</h3>
-                                <p>Front-end Specialist</p>
+                                <h3>Carlos Devani Manullang</h3>
+                                <p>CPO</p>
                             </div>
                         </div>
                     </OwlCarousel> : ''}

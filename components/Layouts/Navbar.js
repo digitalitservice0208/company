@@ -122,47 +122,9 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Portfolio <i className="icofont-thin-down"></i>
-                                            </a>
+                                        <Link href="/portfolio" activeClassName="active">
+                                            <a className="nav-link">Portfolio</a>
                                         </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/portfolio" activeClassName="active">
-                                                    <a className="nav-link">Portfolio</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/portfolio-details" activeClassName="active">
-                                                    <a className="nav-link">Portfolio Details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Blog <i className="icofont-thin-down"></i>
-                                            </a>
-                                        </Link>
-
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/blog" activeClassName="active">
-                                                    <a className="nav-link">Blog Grid</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-details" activeClassName="active">
-                                                    <a className="nav-link">Blog Details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
 
                                     <li className="nav-item">

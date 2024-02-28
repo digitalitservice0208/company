@@ -1,5 +1,37 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+
+const portfolios = [
+    {
+        img: "/images/works/1.jpg",
+        title: "Landing Page",
+        description: "Plant trees with your steps"
+    },
+    {
+        img: "/images/works/2.png",
+        title: "Admin Portal",
+        description: "Patient Management System"
+    },
+    {
+        img: "/images/works/3.png",
+        title: "Mobile App Development",
+        description: "Designing house via mobile"
+    },
+    {
+        img: "/images/works/4.png",
+        title: "Ecommerce Development",
+        description: "Buy Drinks & Food Product"
+    },
+    {
+        img: "/images/works/5.png",
+        title: "Mobile App Development",
+        description: "Efficient Mobile Application"
+    },
+    {
+        img: "/images/works/6.png",
+        title: "Web Development",
+        description: "Custom portal as you go"
+    },
+];
 
 class WorksStyle extends Component {
     render() {
@@ -8,161 +40,27 @@ class WorksStyle extends Component {
                 <section className="case-studies-area ptb-100 bg-fcfbfb">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Our All Projects</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2>Portfolio</h2>
+                            <h5>We work to keep you on the top</h5>
                         </div>
 
                         <div className="row justify-content-center">
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work1.jpg" alt="image" />
+                            {portfolios.map((item, index) => (
+                                <div className="col-lg-4 col-sm-6" key={index}>
+                                    <div className="work-card">
+                                        <img src={item.img} alt="image"/>
 
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>SEO Optimization</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Designing a better cinema experience</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
+                                        <div className="content">
+                                            <span>
+                                                <a>{item.title}</a>
+                                            </span>
+                                            <h3>
+                                                <a>{item.description}</a>
+                                            </h3>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work2.jpg" alt="image" />
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Digital Marketing</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Building design process within teams</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work3.jpg" alt="image" />
-
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Keyword Targeting</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>How intercom brings play into their design process</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work4.jpg" alt="image" />
-
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Email Marketing</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Stuck with to-do list, I created a new app for myself</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work5.jpg" alt="image" />
-
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Marketing & Reporting</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Examples of different types of sprints</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="work-card">
-                                    <img src="/images/works/work6.jpg" alt="image" />
-
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Development</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Redesigning the New York times app</a>
-                                            </Link>
-                                        </h3>
-
-                                        <Link href="/portfolio-details">
-                                            <a className="custom-btn">View Details</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="view-more-work">
-                            <Link href="/portfolio">
-                                <a className="btn btn-primary">
-                                    <i className="icofont-tasks"></i> View More
-                                </a>
-                            </Link>
+                            ))}
                         </div>
                     </div>
                 </section>
