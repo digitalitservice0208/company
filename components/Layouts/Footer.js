@@ -129,7 +129,7 @@ class Footer extends Component {
                                         </li>
                                         <li>
                                             <i className="icofont-envelope"></i>
-                                            <p><a href="mailto:info@digitalinformationtechnologygroup.com">info@digitalinformationtechnologygroup.com</a></p>
+                                            <p><a href="mailto:dedi.dit-group@outlook.com">dedi.dit-group@outlook.com</a></p>
                                         </li>
                                     </ul>
                                 </div>

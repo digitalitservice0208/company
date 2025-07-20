@@ -16,7 +16,7 @@ class ContactInfo extends Component {
                                   href="mailto:admin@digitalinformationtechnologygroup.com">admin@digitalinformationtechnologygroup.com</a>
                                 </p>
                                 <p><a
-                                  href="mailto:info@digitalinformationtechnologygroup.com">info@digitalinformationtechnologygroup.com</a>
+                                  href="mailto:dedi.dit-group@outlook.com">dedi.dit-group@outlook.com</a>
                                 </p>
                             </div>
                         </div>
