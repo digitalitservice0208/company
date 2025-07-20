@@ -64,6 +64,9 @@ class TeamStyle extends Component {
                             <div className="team-caption">
                                 <h3>Dedi Erianto Manullang</h3>
                                 <p>CEO</p>
+                                <p>
+                                    <a href="mailto:dedi@digitalinformationtechnologygroup.com">dedi@digitalinformationtechnologygroup.com</a>
+                                </p>
                             </div>
                         </div>
 
@@ -75,6 +78,9 @@ class TeamStyle extends Component {
                             <div className="team-caption">
                                 <h3>Stefan Vukotic</h3>
                                 <p>Head of Engineer</p>
+                                <p>
+                                    <a href="mailto:stefan@digitalinformationtechnologygroup.com">stefan@digitalinformationtechnologygroup.com</a>
+                                </p>
                             </div>
                         </div>
 
@@ -86,6 +92,9 @@ class TeamStyle extends Component {
                             <div className="team-caption">
                                 <h3>Sridahwany Sridahwany</h3>
                                 <p>CPO</p>
+                                <p>
+                                    <a href="mailto:sridahwany@digitalinformationtechnologygroup.com">sridahwany@digitalinformationtechnologygroup.com</a>
+                                </p>
                             </div>
                         </div>
                     </OwlCarousel> : ''}
