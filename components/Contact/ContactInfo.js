@@ -13,10 +13,10 @@ class ContactInfo extends Component {
                                 </div>
                                 <h3>Mail Here</h3>
                                 <p><a
-                                  href="mailto:admin@digitalinformationtechnologygroup.tech">admin@digitalinformationtechnologygroup.tech</a>
+                                  href="mailto:admin@digitalinformationtechnologygroup.com">admin@digitalinformationtechnologygroup.com</a>
                                 </p>
                                 <p><a
-                                  href="mailto:info@digitalinformationtechnologygroup.tech">info@digitalinformationtechnologygroup.tech</a>
+                                  href="mailto:info@digitalinformationtechnologygroup.com">info@digitalinformationtechnologygroup.com</a>
                                 </p>
                             </div>
                         </div>
