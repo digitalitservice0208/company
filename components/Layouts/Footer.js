@@ -23,14 +23,6 @@ class Footer extends Component {
                                     <p>The mission is to deliver the best and highest quality products in the age of
                                         mobility and technical innovation.</p>
 
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="https://www.linkedin.com/company/digital-information-technology-group/"
-                                               target="_blank">
-                                                <i className="icofont-linkedin"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
 
